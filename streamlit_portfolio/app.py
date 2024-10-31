@@ -2,16 +2,20 @@ import streamlit as st
 
 st.set_page_config(page_title="AI & Data Science Portfolio", layout="wide")
 
-st.title("Data Science and AI Portfolio")
-st.markdown("Explore various machine learning and deep learning projects. Each project includes an interactive app and a Jupyter notebook for detailed analysis.")
+st.title("Welcome to My Data Science and AI Portfolio")
+st.markdown("This portfolio showcases various machine learning and deep learning projects.")
 
+st.write("Select a project from the sidebar to explore.")
 st.sidebar.title("Projects")
+
+# List descriptions for clarity
 st.sidebar.markdown(
     """
     ### Project Pages:
-    - [Movie Sentiment Analysis App](1_Movie_Sentiment_Analysis)
-    - [Sentiment Analysis Notebook](3_Sentiment_Notebook)
-    - [Brain Tumor Classification App](2_Brain_Tumor_Classification)
-    - [Brain Tumor Classification Notebook](4_Brain_Tumor_Notebook)
+    - **Movie Sentiment Analysis**: Interactive sentiment analysis app.
+    - **Brain Tumor Classification**: Upload MRI images for classification.
+    - **Sentiment Analysis Notebook**: View the project notebook for sentiment analysis.
+    - **Brain Tumor Notebook**: View the project notebook for brain tumor classification.
     """
 )
+
