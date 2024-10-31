@@ -1,15 +1,15 @@
-# Core libraries for machine learning, Streamlit, and image processing
-streamlit==1.25.0            # Streamlit version (adjust to latest compatible version if needed)
-tensorflow==2.12.0           # TensorFlow version (adjust based on your TensorFlow version)
-pillow==9.5.0                # For image processing with PIL
-numpy==1.24.3                # For numerical operations
-nbformat==5.9.1              # For handling Jupyter notebooks
-nbconvert==7.8.0             # For converting notebooks to HTML for display in Streamlit
-matplotlib==3.7.1
-scikit-learn==1.2.2
-ipywidgets==8.0.6
-
+# Core libraries
+streamlit
 joblib
+numpy
 scipy
 scikit-learn
 lightgbm
+
+# For brain tumor classification model (using TensorFlow and image processing)
+tensorflow
+pillow
+
+# For Jupyter notebook display in Streamlit
+nbformat
+nbconvert
